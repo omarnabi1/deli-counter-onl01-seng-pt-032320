@@ -1,7 +1,9 @@
 # Write your code here.
 
-def line(katz_deli)
-  if (katz_deli.lenght == 0)
-    puts "The line is currently empty"
-  end
-  
+katz_deli = []
+def take_a_number(array, name)
+  array.push(name)
+  position = array.index(name)
+  puts "Welcome #{name}. You are number #{array.index(name)+1 in line."
+  return name, position
+end
